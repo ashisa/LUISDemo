@@ -1,0 +1,157 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "MyTestApp",
+  "desc": "Inventory tracking app",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "ListItems"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Item"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "show me the inventory",
+      "intent": "ListItems",
+      "entities": []
+    },
+    {
+      "text": "show me the stock",
+      "intent": "ListItems",
+      "entities": []
+    },
+    {
+      "text": "how many shirts do we have in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "show me the stocks of red scarves",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "show me the stocks of trousers",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "how many wallets do we have in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "how many black shoes do we have in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 2,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "show me the count of the paracetamol tablets",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "do we have any black tops in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "bikes in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "any shirts",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "belts in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "shoes in stock",
+      "intent": "ListItems",
+      "entities": [
+        {
+          "entity": "Item",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    }
+  ]
+}
